@@ -39,7 +39,7 @@ public:
     else if(scan->ranges[75] < 0.4 && !(scan->ranges[45] < 0.25))
     {
       vel.linear.x = 0.15;
-      vel.angular.z = 4.;
+      vel.angular.z = 3.;
     }    
     else
     {
